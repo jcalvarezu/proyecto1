@@ -1,0 +1,22 @@
+{
+    "description": " PlayStation 4 es la cuarta videoconsola del modelo PlayStation.6 Forma parte de las videoconsolas de octava generación. Fue anunciada oficialmente el 20 de febrero de 2013 en el evento PlayStation Meeting 2013,7 aunque el diseño de la consola no fue presentado hasta el 10 de junio en el E3 2013.8 Es la sucesora de la PlayStation 3 y actualmente compite con la Xbox One de Microsoft y la Wii U de Nintendo. Su lanzamiento fue el 15 de noviembre de 2013 en Estados Unidos y en Europa y Latinoamérica fue el 29 de noviembre de 2013,9 7 mientras que en Japón fue el 22 de febrero de 2014.2", 
+
+    "hardware": {
+        "cpu": "Semi-custom 8-core AMD x86-64 Jaguar 1.6 GHz CPU ", 
+        "usb": "USB 2.0"
+    }, 
+    "id": "Play-Station-4", 
+    "images": [
+        "img/consoles/playstation4_1.jpg", 
+        "img/consoles/playstation4_2.jpg", 
+        "img/consoles/playstation4_3.jpg", 
+        "img/consoles/playstation4_4.jpg", 
+        "img/consoles/playstation4_5.jpg"
+    ], 
+    "name": "Play Station 4", 
+ 
+    "storage": {
+        "flash": "500GB", 
+        "ram": "8GB"
+    }
+}

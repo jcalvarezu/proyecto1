@@ -1,0 +1,23 @@
+[
+    {
+        "age": 1, 
+        "id": "Play-Station-4", 
+        "imageUrl": "img/consoles/playstation4_0.jpg", 
+        "name": "Play Station 4", 
+        "snippet": "La emblematica consola de Sony, en su cuarta generación con los mejores graficos del mercado."
+    }, 
+    {
+        "age": 2, 
+        "id": "XBOX-One", 
+        "imageUrl": "img/consoles/xboxone_0.jpg", 
+        "name": "Xbox One", 
+        "snippet": "Microsoft nos presenta su tercera generacion de consolas, con un enorme catalogo de videojuegos."
+    }, 
+    {
+        "age": 3, 
+        "id": "Wii-U", 
+        "imageUrl": "img/consoles/wiiu_0.jpg", 
+        "name": "Wii U", 
+        "snippet": "Nintendo nos presenta la Wii U, una innovadora consola que hace uso de un mando diferente al de la competencia."
+    }
+] 
