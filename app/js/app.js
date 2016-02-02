@@ -4,7 +4,7 @@
 
 var consoleApp = angular.module('consoleApp', [
   'ngRoute',
-  'phonecatAnimations',
+  'consoleAnimations',
 
   'consoleControllers',
   'phonecatFilters',
@@ -18,8 +18,8 @@ consoleApp.config(['$routeProvider',
         templateUrl: 'partials/console-list.html',
         controller: 'ConsoleListCtrl'
       }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
+      when('/consoles/:consoleId', {
+        templateUrl: 'partials/console-detail.html',
         controller: 'ConsoleDetailCtrl'
       }).
       otherwise({

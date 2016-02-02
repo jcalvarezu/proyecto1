@@ -1,0 +1,22 @@
+{
+    "description": "Wii U es la primera consola de Nintendo en producir gráficos en alta definición hasta una resolución de 1080p. Incluye un nuevo mando que incorpora una pantalla táctil igualmente capaz de reproducir gráficos en alta definición que permite seguir jugando con la consola incluso cuando el televisor está apagado, a este nuevo mando se le ha denominado: Wii U GamePad. El sistema es retrocompatible con los juegos de Wii, y soporta los periféricos de Wii, como el Wiimote o la Wii Balance Board e incluyendo la tecnología NFC,7 además de que es compatible con la figuras amiibo como accesorio propio (también compatibles en la Nintendo 3DS, que modifican la forma de jugar videojuegos).", 
+
+    "hardware": {
+        "cpu": "Tri-core IBM Espresso", 
+        "usb": "USB 2.0"
+    }, 
+    "id": "Wii-U", 
+    "images": [
+        "img/consoles/wiiu_1.jpg", 
+        "img/consoles/wiiu_2.jpg", 
+        "img/consoles/wiiu_3.jpg", 
+        "img/consoles/wiiu_4.jpg", 
+        "img/consoles/wiiu_5.jpg"
+    ], 
+    "name": "Wii U", 
+ 
+    "storage": {
+        "flash": "8GB", 
+        "ram": "4GB"
+    }
+}

@@ -1,0 +1,43 @@
+<div class="console-images">
+  <img ng-src="{{img}}"
+       class="console"
+       ng-repeat="img in console.images"
+       ng-class="{active: mainImageUrl==img}">
+</div>
+
+<h1>{{console.name}}</h1>
+
+<p>{{console.description}}</p>
+
+<ul class="console-thumbs">
+  <li ng-repeat="img in console.images">
+    <img ng-src="{{img}}" ng-click="setImage(img)">
+  </li>
+</ul>
+
+<ul class="specs">
+ 
+
+  <li>
+    <span>Storage and Memory</span>
+    <dl>
+      <dt>RAM</dt>
+      <dd>{{console.storage.ram}}</dd>
+      <dt>Internal Storage</dt>
+      <dd>{{console.storage.flash}}</dd>
+    </dl>
+  </li>
+  
+
+  <li>
+    <span>Hardware</span>
+    <dl>
+      <dt>CPU</dt>
+      <dd>{{console.hardware.cpu}}</dd>
+      <dt>USB</dt>
+      <dd>{{console.hardware.usb}}</dd>
+    </dl>
+  </li>
+
+
+</ul>
