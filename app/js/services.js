@@ -2,11 +2,11 @@
 
 /* Services */
 
-var phonecatServices = angular.module('phonecatServices', ['ngResource']);
+var consoleServices = angular.module('consoleServices', ['ngResource']);
 
-phonecatServices.factory('Phone', ['$resource',
+consoleServices.factory('Console', ['$resource',
   function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    return $resource('consoles/:consoleId.json', {}, {
+      query: {method:'GET', params:{consoleId:'consoles'}, isArray:true}
     });
   }]);

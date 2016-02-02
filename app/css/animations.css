@@ -2,6 +2,42 @@
  * animations css stylesheet
  */
 
+
+/* animate ngRepeat in console listing */
+.console-listing.ng-enter,
+.console-listing.ng-leave,
+.console-listing.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.console-listing.ng-enter,
+.console-listing.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.console-listing.ng-move.ng-move-active,
+.console-listing.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 120px;
+}
+
+.console-listing.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.console-listing.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* animate ngRepeat in phone listing */
 
 .phone-listing.ng-enter,

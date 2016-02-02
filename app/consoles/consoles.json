@@ -1,24 +1,23 @@
 [
     {
-        "age": 0, 
+        "age": 1, 
         "id": "Play-Station-4", 
         "imageUrl": "img/consoles/playstation4_0.jpg", 
-        "name": "Motorola XOOM\u2122 with Wi-Fi", 
-        "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
-    }, 
-    {
-        "age": 1, 
-        "id": "XBOX-One", 
-        "imageUrl": "img/consoles/motorola-xoom.0.jpg", 
-        "name": "MOTOROLA XOOM\u2122", 
-        "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
+        "name": "Play Station 4 Deluxe", 
+        "snippet": "La emblematica consola de Sony, en su cuarta generación con los mejores graficos del mercado."
     }, 
     {
         "age": 2, 
-        "carrier": "Wii-U", 
-        "id": "motorola-atrix-4g", 
-        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
-        "name": "MOTOROLA ATRIX\u2122 4G", 
-        "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+        "id": "XBOX-One", 
+        "imageUrl": "img/consoles/xboxone_0.jpg", 
+        "name": "Xbox One Deluxe", 
+        "snippet": "Microsoft nos presenta su tercera generacion de consolas, con un enorme catalogo de videojuegos."
+    }, 
+    {
+        "age": 3, 
+        "id": "Wii-U", 
+        "imageUrl": "img/consoles/wiiu_0.jpg", 
+        "name": "Wii U", 
+        "snippet": "Nintendo nos presenta la Wii U, una innovadora consola que hace uso de un mando diferente al de la competencia."
     }
 ] 
